@@ -1,0 +1,27 @@
+name: Synchronize data
+on:
+  schedule:
+    - cron: "13,33,53 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        type: boolean
+        default: false
+      publish:
+        type: boolean
+        default: true
+  repository_dispatch:
+    types: [refresh-data]
+permissions:
+  contents: write
+concurrency:
+  group: synchronize-data
+  cancel-in-progress: false
+jobs:
+  synchronize:
+    uses: haneoka-gakuen/ournotes-data-pipeline/.github/workflows/consume.yml@0626f4b780f79191b86a13a3c7069dc180463547
+    with:
+      kind: stories
+      producer_ref: 0626f4b780f79191b86a13a3c7069dc180463547
+      force: ${{ inputs.force || false }}
+      publish: ${{ github.event_name != 'workflow_dispatch' || inputs.publish }}

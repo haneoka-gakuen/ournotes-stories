@@ -1,0 +1,5 @@
+*.moc3 binary
+*.png binary
+*.jpg binary
+*.skel binary
+*.bytes binary
