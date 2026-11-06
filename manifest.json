@@ -11,9 +11,9 @@
     "intl": {
       "files": 5105,
       "sha256": "dc80bdd035dc8c6b769bc89744fa503483f8dbfd956dac8901d6245dbbebb60b",
-      "input": "8bdd64e7bd9e70d68af867f971ffc23f42fdffef363b29250ea3f60728e6e47a",
+      "input": "e96a5de011dc03364dd650e2d103439035da1dd4cfffa255be8d6a6b44408493",
       "hash": "4fd97dac48eadfeb72efd51c9b837872",
-      "version": "1.1.0.300"
+      "version": "1.1.0.301"
     }
   }
 }
