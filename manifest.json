@@ -2,11 +2,11 @@
   "schema": "haneoka-stories-v1",
   "servers": {
     "jp": {
-      "files": 1012,
-      "sha256": "8cfd065c19147905c0d94780259104e00c16c30bf8921d59d3d6503cc2a8a086",
-      "input": "7867ff2254db093ba4dee573557f13564a062646df6b0119809f72d0e42dcef1",
-      "hash": "8be74134b87dacf7ce1f38967cd66745",
-      "version": "1.1.0.200"
+      "files": 1021,
+      "sha256": "5ad6ef904e28cc9a3688c0fc3472d1d6db30edb8bc6a738e7814c162b0ce4f97",
+      "input": "9bccc7b7e47ed8577536953207a4d6f9e2ccd13d2af3be9f8ad2d612bfcc6ba7",
+      "hash": "bc9f8fc0692b4ed4e842db2688b24225",
+      "version": "1.1.0.300"
     },
     "intl": {
       "files": 5105,
